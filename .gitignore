@@ -1,0 +1,21 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+
+# Local toolkit settings (the app actually stores these under
+# %LocalAppData%\StashToolkit\, never inside this folder -- this is just a
+# safety net in case a copy of settings.json ever ends up here, since it can
+# contain your Stash API key)
+settings.json
+
+# Exports produced by running the toolkit from inside this folder
+Exports/
+*.xlsx
+*.html
+*.m3u
+*.m3u8
